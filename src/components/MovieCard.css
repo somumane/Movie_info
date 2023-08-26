@@ -1,0 +1,91 @@
+.MovieCard{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    margin: 30px;
+}
+.Title{
+    display: flex;
+    color: brown;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+}
+.Poster{
+    height: 450px;
+    width:600px;
+
+}
+.Poster img{
+    height: 350px;
+    width: 400px;
+    margin-left: 100px;
+}
+.Details{
+    width: 500px;
+    margin: 20px;
+
+}
+.Details span{
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Details p{
+    color: #111;
+    font-size-adjust: 1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+@media only screen and (max-width:600px){
+    .MovieCard{
+        background-color: aliceblue;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 338px;
+        margin:2px;
+    }
+    .Title h1{
+        font-size: 20px;
+    }
+    .Title{
+        display: flex;
+        color: brown;
+        align-items: center;
+        justify-content: center;
+        background-color:aliceblue;
+    }
+    .Poster{
+        height:200px;
+        width:150px;
+        align-items: center;
+    
+    }
+    .Poster img{
+        height: 130px;
+        width: 135px;
+        margin-left:7px;
+    }
+    .Details{
+        width: 130px;
+    }
+    .Details.rating p{
+        font-size:2px;
+    }
+    .Details span{
+        color: brown;
+        font-size: 8px;
+        font-weight: 700;
+    }
+    .Details p{
+        color: #111;
+        font-size: 5.5px;
+        font-weight: 500;
+    }
+}

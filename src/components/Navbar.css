@@ -1,0 +1,113 @@
+.navbar{
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Links{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+width: 800px;
+height: 30px;
+margin-left: 150px;
+}
+.Links a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px;
+    color: black;
+    font-weight: 700;
+    transition: 0.1s;
+}
+.Links a:hover{
+    transform: scale(1.1);
+}
+a.active{
+    color: brown;
+    font-weight: 900;
+    border-bottom:2px solid brown;
+}
+h2{
+    color: brown;
+    font-weight: 900;
+}
+.Searchbar{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.Searchbar input{
+height: 30px;
+width:700px;
+outline: none;
+border: 1px solid black;
+border-radius: 10px;
+}
+img{
+    height: 730px;
+    width: 1452px;
+    margin:20px;
+   }
+   @media only screen and (max-width:600px){
+    .navbar{
+        height: 30px;
+        background-color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 340px;
+    }
+    .Links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 10px;
+    margin-left: 2px;
+    }
+    .Links a{
+        text-decoration: none;
+        font-size: 8px;
+        padding: 1px;
+        color: black;
+        font-weight: 600;
+        transition: 0.1s;
+    }
+    .Links a:hover{
+        transform: scale(1.1);
+    }
+    a.active{
+        color: brown;
+        font-weight: 900;
+        border-bottom:2px solid brown;
+    }
+    h2{
+        color: brown;
+        font-weight: 900;
+        font-size:12px;
+    }
+    .Searchbar{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+    }
+    .Searchbar input{
+    height: 30px;
+    width:320px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    }
+    img{
+        height: 300px;
+        width: 330px;
+        margin:2px;
+       }
+
+   }
